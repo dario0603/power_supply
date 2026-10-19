@@ -58,7 +58,7 @@ contenenti vari analisi, tra cui l'Analisi di Ripple e Filtraggio
 
 ---
 
-## 🛠️ Progettazione Hardware (KiCad)
+## Progettazione Hardware (KiCad)
 
 I file di progetto PCB e schematici sono realizzati con **KiCad**.
 
@@ -66,7 +66,7 @@ I file di progetto PCB e schematici sono realizzati con **KiCad**.
 
 ---
 
-## 📄 Documentazione e Relazione
+## Documentazione e Relazione
 
 Per un'analisi approfondita dei calcoli teorici, delle scelte progettuali e delle prestazioni misurate, fare riferimento alla relazione completa presente nella repository:
 
