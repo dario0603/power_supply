@@ -1,3 +1,10 @@
+<p align="left">
+   <a href="#"><img src="https://img.shields.io/badge/KiCad-Schematic-314CB0?style=flat&logo=kicad&logoColor=white" alt="KiCad"></a>
+   <a href="#"><img src="https://img.shields.io/badge/LTspice-Simulation-blue?style=flat" alt="LTspice"></a>
+   <a href="#"><img src="https://img.shields.io/badge/Status-Completed-success?style=flat" alt="Status"></a>
+   <a href="./Relazione/Relazione%20Costruzioni.pdf"><img src="https://img.shields.io/badge/Report-PDF-red?style=flat&logo=adobe-acrobat-reader&logoColor=white" alt="Report PDF"></a>
+</p>
+
 # Linear Power Supply Project
 
 Progetto universitario per la realizzazione e simulazione di un **Alimentatore da Banco Stabilizzato** , completo di schemi elettrici KiCad, simulazioni LTspice, documentazione tecnica e file Gerber per la produzione del PCB.
