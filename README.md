@@ -34,7 +34,7 @@ Le scelte progettuali più rilevanti per la regolazione e la protezione includon
 Per il corretto funzionamento degli amplificatori operazionali (TL082) e della logica di controllo, il circuito ricava tensioni di servizio secondarie:
 *   $\pm12V$ stabilizzate (utilizzando LM7812 e LM7912).
 *   $+5V$ stabilizzati (tramite LM7805).
-*   Tensioni negative specifiche create con diodi Zener per rispettare i limiti di alimentazione degli op-amp nella sezione di tracking.
+*   Tensioni negative specifiche create con diodi Zener per rispettare i limiti di alimentazione degli op-amp nella sezione di tracking in particolare una linea a $-3.8V$.
 
 ## 5. Circuiti di Misura (Voltmetro e Amperometro)
 Per fornire misurazioni precise all'ADC del microcontrollore (fondo-scala $5V$):
@@ -51,10 +51,21 @@ Per fornire misurazioni precise all'ADC del microcontrollore (fondo-scala $5V$):
 ## Simulazioni LTspice
 
 All'interno della directory `Alimentatore taratura manuale/LTspice/` sono presenti due modelli di simulazione (da `v1.0` a `v2.0`):
-contenenti vari analisi, tra cui l'Analisi di Ripple e Filtraggio
+contenenti varie analisi.
+
+**Analisi di Ripple e Filtraggio**
 
 ![Simulazione Tensioni](Relazione/Immagini/Simulazione%20filtro%20e%20raddrizzatore%20tensioni.PNG)
 ![Simulazione Ripple](Relazione/Immagini/Simulazione%20filtro%20e%20raddrizzatore%20ripple.PNG)
+
+**Risposta al gradino ($V_{\text{ref}}$)**
+
+![Risposta al gradino](Relazione/Immagini/Simulazione%20regolatore%20gradino.PNG)
+
+**Risposta alla rampa ($V_{\text{ref}}$)**
+
+
+![Risposta alla rampa](Relazione/Immagini/Simulazione%20regolatore%20rampa.PNG)
 
 ---
 
